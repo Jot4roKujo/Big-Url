@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Berk Outline';
+    src: url('Berk-Outline.eot');
+    src: local('Berk Outline'), local('Berk-Outline'),
+        url('Berk-Outline.eot?#iefix') format('embedded-opentype'),
+        url('Berk-Outline.woff2') format('woff2'),
+        url('Berk-Outline.woff') format('woff'),
+        url('Berk-Outline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berk Retro';
+    src: url('Berk-Retro.eot');
+    src: local('Berk Retro'), local('Berk-Retro'),
+        url('Berk-Retro.eot?#iefix') format('embedded-opentype'),
+        url('Berk-Retro.woff2') format('woff2'),
+        url('Berk-Retro.woff') format('woff'),
+        url('Berk-Retro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berk';
+    src: url('Berk-Regular.eot');
+    src: local('Berk Regular'), local('Berk-Regular'),
+        url('Berk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Berk-Regular.woff2') format('woff2'),
+        url('Berk-Regular.woff') format('woff'),
+        url('Berk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

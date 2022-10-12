@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.title {
+  font-size:xx-large;
+  font-family: "berk";
+  text-align: center;
+  font-weight: normal;
+}
+
+.divForm {
+  margin-top: 2em;
+  padding: 0 1em 0 1em;
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px var(--bs-gray);
+}
+
+.divTitle {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.myForm {
+  width: auto;
+}
+
+.myInput {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.sendButton {
+  font-weight: 500;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.desc {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.results {
+  margin-top: 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px var(--bs-gray);
+}
+
+.del {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.click {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.deleteBtn {
+  margin-bottom: 2em;
+  width: 5em;
+  border-radius: 6,4px;
+  text-align: center;
+  font-weight:500;
+}
+
+.myFooter {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
