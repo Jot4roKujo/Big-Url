@@ -3,7 +3,7 @@ const router = express.Router();
 const Url = require('../models/Url');
 
 //Deleting the Short URL
-router.post('/short', async (req, res) => {           //Using HTTP POST request to delete the data from database 
+router.delete('/short', async (req, res) => {           //Using HTTP POST request to delete the data from database 
   const { _id } = req.body;                           //Extracting the data ID value from the HTTP request body
   try {
     let url = await Url.findOne({ _id });             //Checking if data ID exists in the database 
