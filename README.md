@@ -5,7 +5,7 @@ This is a FullStack URL shortener service like bit.ly. The API service can take 
 ## Screenshots
 
 <p align="center">
-  <img src="/views/assets/img/screenshot1.jpg"/>
+  <img src="/views/assets/img/20240514_18330129.png"/>
 </p>
 
 <p align="center">
